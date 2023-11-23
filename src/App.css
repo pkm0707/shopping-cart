@@ -12,6 +12,25 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding:80px;
-  gap:20px;
+  padding:70px;
+  gap:60px;
+  margin: 55px 20px 55px 20px;
 }
+.button-center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: #212529;
+  padding: 50px;
+}
+
+
