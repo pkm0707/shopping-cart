@@ -3,13 +3,14 @@ import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card'; 
-import Badge from 'react-bootstrap/Badge';
 import Rating from '@mui/material/Rating';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Iconbutton } from './iconbutton';
+import Badge from '@mui/material/Badge';
+import { IconButton } from '@mui/material';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { useState } from 'react';
 function App() {
   return (
@@ -40,7 +41,11 @@ function Shopingcart(){
               </NavDropdown>
             </Nav>
             <Nav>
-              <Iconbutton/>
+            <IconButton>
+              <Badge color="secondary" badgeContent={count}>
+                <ShoppingCartIcon fontSize='large'/>
+              </Badge>
+            </IconButton>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -66,7 +71,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge bg="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
           </Card>
           <Card style={{ width: '300px',position:"relative"}}>
             <Card.Img variant="top" src="https://m.media-amazon.com/images/I/51qSnKMJ6RL._SX300_SY300_QL70_FMwebp_.jpg" />
@@ -83,7 +88,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge bg="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
           </Card>
           <Card style={{ width: '300px'}}>
             <Card.Img variant="top" src="https://m.media-amazon.com/images/I/71d7rfSl0wL._SX679_.jpg"/>
@@ -116,7 +121,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge bg="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
           </Card>
           <Card style={{ width: '300px',position:"relative"}}>
             <Card.Img variant="top" src="https://m.media-amazon.com/images/I/31IhYwtLhPL._SX300_SY300_QL70_FMwebp_.jpg"/>
@@ -133,7 +138,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge bg="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
           </Card>
           <Card style={{ width: '300px',position:"relative"}}>
             <Card.Img variant="top" src="https://m.media-amazon.com/images/I/41du-jmuX1L._SX300_SY300_QL70_FMwebp_.jpg"/>
@@ -150,7 +155,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge bg="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
           </Card>
           <Card style={{ width: '300px'}}>
             <Card.Img variant="top" src="https://m.media-amazon.com/images/I/71nH3-koucL._SX679_.jpg"/>
@@ -173,7 +178,7 @@ function Shopingcart(){
             <Card.Body>
               <Card.Title style={{textAlign:"center",fontSize:"22px"}}><b>GUESS Phoenix</b></Card.Title>
               <Card.Text style={{textAlign:"center"}}>
-                <Rating name="half-rating-read" defaultValue={2} precision={0.5} readOnly />
+                <Rating name="half-rating-read" defaultValue={5} precision={0.5} readOnly />
               </Card.Text>
               <Card.Text style={{textAlign:"center",fontSize:"20px"}}>
                 <s>₹14,999</s> ₹10,999 
@@ -183,7 +188,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge bg="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
           </Card>
         </div>
       </div>
