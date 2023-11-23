@@ -71,7 +71,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"4px",color:"white"}}>offer-sale</Badge>
           </Card>
           <Card style={{ width: '300px',position:"relative"}}>
             <Card.Img variant="top" src="https://m.media-amazon.com/images/I/51qSnKMJ6RL._SX300_SY300_QL70_FMwebp_.jpg" />
@@ -88,7 +88,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"4px",color:"white"}}>offer-sale</Badge>
           </Card>
           <Card style={{ width: '300px'}}>
             <Card.Img variant="top" src="https://m.media-amazon.com/images/I/71d7rfSl0wL._SX679_.jpg"/>
@@ -121,7 +121,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"4px",color:"white"}}>offer-sale</Badge>
           </Card>
           <Card style={{ width: '300px',position:"relative"}}>
             <Card.Img variant="top" src="https://m.media-amazon.com/images/I/31IhYwtLhPL._SX300_SY300_QL70_FMwebp_.jpg"/>
@@ -138,7 +138,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"4px",color:"white"}}>offer-sale</Badge>
           </Card>
           <Card style={{ width: '300px',position:"relative"}}>
             <Card.Img variant="top" src="https://m.media-amazon.com/images/I/41du-jmuX1L._SX300_SY300_QL70_FMwebp_.jpg"/>
@@ -155,7 +155,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"4px",color:"white"}}>offer-sale</Badge>
           </Card>
           <Card style={{ width: '300px'}}>
             <Card.Img variant="top" src="https://m.media-amazon.com/images/I/71nH3-koucL._SX679_.jpg"/>
@@ -188,7 +188,7 @@ function Shopingcart(){
                 <Button variant="danger" onClick={()=>setCount(count-1)} style={{margin:"0px 0px 0px 5px"}}>Remove from cart</Button>
               </div>
             </Card.Body>
-            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"8px",color:"white"}}>offer-sale</Badge>
+            <Badge color="primary" style={{width:"70px",position:"absolute",marginTop:"10px",marginLeft:"220px",backgroundColor:"black",borderRadius:"4px",color:"white"}}>offer-sale</Badge>
           </Card>
         </div>
       </div>
