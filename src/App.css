@@ -7,15 +7,7 @@
   background-color: #212529;
   padding: 80px;
 }
-.card-flex{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding:70px;
-  gap:60px;
-  margin: 55px 20px 55px 20px;
-}
+
 .button-center{
   display: flex;
   flex-wrap: wrap;
